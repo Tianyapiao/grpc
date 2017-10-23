@@ -40,7 +40,6 @@ public class HelloWorldClient {
             client.greet("world:"+i);
             //client.shutdown();
         }
-
-
+        client.shutdown();
     }
 }
